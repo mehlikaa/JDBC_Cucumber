@@ -8,12 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StepDefinitions {
-
+// hem sizi o adrese goturuyor hem de sifreyi girerek o kapidan giriyorsunuz autentication
     String url="jdbc:sqlserver://184.168.194.58:1433;databaseName=hotelmycamp ; user=techproed;password=P2s@rt65";
     String username="techproed";
     String password="P2s@rt65";
 
-    Connection connection;
+    Connection connection;              //overloading
     Statement statement;
     ResultSet resultSet;
 
